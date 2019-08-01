@@ -15,7 +15,26 @@ body {
   padding: 30px;
   border: 1px solid yellow;
   width: 200px;
-    border-radius: 6px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.info-productos span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: yellow;
+    padding: 10px 20px;
+}
+.info-productos .bag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: yellow;
+    padding: 5px 10px;
+    color: black;
+    cursor: pointer;
+    border-top-right-radius: 6px;
 }
 button {
   background: yellow;
